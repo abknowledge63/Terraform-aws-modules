@@ -10,7 +10,7 @@ resource "aws_instance""golody_instance" {
   ami = "ami-05d72852800cbf29e"
   tags = {
 
-    Name = "terraform-module-instance"
+    Name = "terraform-from-git-change"
     Terraform   = "true"
     Environment = "dev"
   }
